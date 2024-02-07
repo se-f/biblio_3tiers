@@ -174,7 +174,6 @@ public class Abonne extends JFrame implements ActionListener {
 
     @Override
 
-    //JButton insertBtn, deleteBtn,  researchBtn, modBtn, refreshBtn, abonne, bpret;
     public void actionPerformed(ActionEvent e) {
 
         //TODO: INSERTABONNE
@@ -244,7 +243,6 @@ public class Abonne extends JFrame implements ActionListener {
             }
 
         }
-        //aller vers l'interface graphique de gestion des livres
 
     }
 
