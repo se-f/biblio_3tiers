@@ -9,8 +9,8 @@ public class Connec {
     public Connec() {
         System.out.println("Trying to connect...");
         try {
-
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3308/biblio", "root", "");
+            // Make sure to change the URL to the DB as well as credentials
+            con = DriverManager.getConnection("jdbc:mysql://localhost:****/******", "****", "*********");
             System.out.println("Connected!!");
         } catch (Exception e) {
             System.out.println("Failed to connect");
