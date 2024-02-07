@@ -96,7 +96,6 @@ public class ServerImpl extends UnicastRemoteObject implements ServerInterface {
         try {
             while (resultSet.next()) {
                 List<String> row = new ArrayList<>();
-                // Assuming there are two columns "column1" and "column2"
                 row.add(resultSet.getString("idab"));
                 row.add(resultSet.getString("nomab"));
                 tableOfStrings.add(row);
