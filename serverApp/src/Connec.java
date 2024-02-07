@@ -7,13 +7,13 @@ public class Connec {
     Connection con;
 
     public Connec() {
-        System.out.println("trying to connect...");
+        System.out.println("Trying to connect...");
         try {
 
             con = DriverManager.getConnection("jdbc:mysql://localhost:3308/biblio", "root", "");
-            System.out.println("connected!!");
+            System.out.println("Connected!!");
         } catch (Exception e) {
-            System.out.println("connected not yet!!");
+            System.out.println("Failed to connect");
             System.out.println(e);
 
         }
